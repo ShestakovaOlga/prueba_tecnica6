@@ -1,5 +1,5 @@
 export async function GetUsers() {
-    const result = await fetch('https://api.github.com/orgs/Adalab/members') //coger los datos de miembros
+    const result = await fetch('https://api.github.com/orgs/Adalab/members')
     const data = await result.json()
     let r = []
 
